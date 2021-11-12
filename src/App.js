@@ -18,9 +18,13 @@ function App() {
       <main>
         <p>
           Be sure to check out
-          <a href="/specials" className="featured">our specials</a>.
+          <a href="/specials" className="featured"> our specials</a>.
         </p>
       </main>
+      <footer className="footer">
+        &copy; 2021 Wombat Coffer Roasters &mdash;
+        <a href="/terms-of-use">Terms of use</a>
+      </footer>
     </div>
   );
 }
