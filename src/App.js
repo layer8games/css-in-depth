@@ -26,6 +26,12 @@ function App() {
         </p>
         <span className="box box-small">Small</span>
         <span className="box box-large">Large</span>
+        <div className="panel large">
+          <h2>Single-Origin</h2>
+          <div className="panel-body">
+            We have built a partnership with small farms around the wrold to hand-select beans at the peak of season. We then carefully roast in <a href="/batch-size">small batches</a> to maximize their potential
+          </div>
+        </div>
       </main>
       <footer className="footer">
         &copy; 2021 Wombat Coffer Roasters &mdash;
