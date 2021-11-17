@@ -1,6 +1,11 @@
+:root {
+  font-size: 0.875em;
+}
+
 body {
   background-color: #181919;
   font-family: sans-serif;
+  font-size: 1.25rem;
   color: #999999;
 }
 
@@ -47,4 +52,24 @@ a:link {
 .footer a {
   color: inherit;
   text-decoration: underline;
+}
+
+.box {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: lightgray;
+}
+
+.box-small {
+  font-size: 12px;
+}
+
+.box-large {
+  font-size: 18px;
+}
+
+.slogan {
+  font-size: 1.2em;
+  padding: 1.2em;
+  background-color: #ccc;
 }

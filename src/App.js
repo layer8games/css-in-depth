@@ -16,10 +16,16 @@ function App() {
         </nav>
       </header>
       <main>
+        <body>
+          We love coffee
+          <p className="slogan">We love coffee</p>
+        </body>
         <p>
           Be sure to check out
           <a href="/specials" className="featured"> our specials</a>.
         </p>
+        <span className="box box-small">Small</span>
+        <span className="box box-large">Large</span>
       </main>
       <footer className="footer">
         &copy; 2021 Wombat Coffer Roasters &mdash;
