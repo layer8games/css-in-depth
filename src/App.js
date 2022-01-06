@@ -17,8 +17,8 @@ function App() {
       </header>
       <main>
         <body>
-          We love coffee
-          <p className="slogan">We love coffee</p>
+          We love coffee (small)
+          <p className="slogan">We love coffee (styled with slogan)</p>
         </body>
         <p>
           Be sure to check out
@@ -29,7 +29,7 @@ function App() {
         <div className="panel large">
           <h2>Single-Origin</h2>
           <div className="panel-body">
-            We have built a partnership with small farms around the wrold to hand-select beans at the peak of season. We then carefully roast in <a href="/batch-size">small batches</a> to maximize their potential
+            We have built a partnership with small farms around the world to hand-select beans at the peak of season. We then carefully roast in <a href="/batch-size">small batches</a> to maximize their potential
           </div>
         </div>
       </main>
