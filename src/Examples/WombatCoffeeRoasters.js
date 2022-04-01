@@ -34,6 +34,33 @@ const WombatCoffeeRoasters = () => {
             specials!
           </a>
         </p>
+        <div className="panel">
+          <p>
+            Beans beans beans. We can eat beans, or we can drink beans. Coffee
+            beans are grown on trees, as a nut. The nut has be taken down from
+            the tree, cracked, and then the bean has to be removed, by hand.
+            That means that another human has touched every single coffee bean
+            that you drink!
+          </p>
+        </div>
+        <div className="panel">
+          <h2>Single-origin</h2>
+          <div className="panel-body">
+            We have built parternships with small farms aroun the world to
+            handle-select beans at the peack of season. We then carefully roast
+            in <a href="/batch-size">small batches</a> to maximize their
+            potential.
+          </div>
+        </div>
+        <div className="panel large">
+          <h2>Single-origin</h2>
+          <div className="panel-body">
+            We have built parternships with small farms aroun the world to
+            handle-select beans at the peack of season. We then carefully roast
+            in <a href="/batch-size">small batches</a> to maximize their
+            potential.
+          </div>
+        </div>
       </main>
       <footer className="footer">
         &copy; 2022 Wombat Coffee Roasters &mdash;

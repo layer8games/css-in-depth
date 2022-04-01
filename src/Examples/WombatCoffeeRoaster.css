@@ -37,12 +37,50 @@ a:link {
 .footer {
   color: #666;
   background-color: #ccc;
-  padding: 15px 0;
+  padding: 1em 0;
   text-align: center;
   font-size: 14px;
+  margin-top: 2em;
 }
 
 .footer a {
   color: inherit;
   text-decoration: underline;
+}
+
+.padded {
+  padding: 1em;
+  border: 1px dotted rebeccapurple;
+}
+
+.box {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: lightgray;
+}
+
+.box-small {
+  font-size: 12px;
+}
+
+.box-large {
+  font-size: 18px;
+}
+
+.panel {
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 1px solid #999;
+}
+
+.panel > h2 {
+  margin-top: 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.panel .large {
+  font-size: 1.2rem;
 }
