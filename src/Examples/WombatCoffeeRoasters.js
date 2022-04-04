@@ -61,6 +61,13 @@ const WombatCoffeeRoasters = () => {
             potential.
           </div>
         </div>
+        <div>
+          <p className="about-us">
+            We have built a partnership with small farms around the world to
+            hand-select beans at the peak of season. We then carefully roast in
+            small batches to maximize their potential.
+          </p>
+        </div>
       </main>
       <footer className="footer">
         &copy; 2022 Wombat Coffee Roasters &mdash;
