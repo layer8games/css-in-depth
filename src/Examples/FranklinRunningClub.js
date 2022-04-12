@@ -16,8 +16,15 @@ const FranklinRunningClub = () => {
           </p>
         </main>
         <aside className="sidebar">
-          <div className="widget"></div>
-          <div className="widget"></div>
+          <a href="/twitter" className="button-link">
+            follow us on Twitter
+          </a>
+          <a href="/facebook" className="button-link">
+            like us on Facebook
+          </a>
+          <a href="/sponsors" className="supporter-link">
+            become a supporter
+          </a>
         </aside>
       </div>
     </>

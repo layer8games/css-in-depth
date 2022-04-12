@@ -8,33 +8,55 @@
   box-sizing: inherit;
 }
 
+body * + * {
+  margin-top: 1.5em;
+}
+
 body {
   background-color: #eee;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
 
 header {
+  padding: 1em 1.5em;
   color: #fff;
   background-color: #0072b0;
   border-radius: 0.5em;
 }
 
-main {
-  display: block;
+.container {
+  display: flex;
 }
 
 .main {
-  float: left;
   width: 70%;
+  padding: 1em 1.5em;
   background-color: #fff;
   border-radius: 0.5em;
 }
 
 .sidebar {
-  float: left;
-  width: calc(30% - 1.5em);
+  width: 30%;
+  margin-top: 0;
   margin-left: 1.5em;
   padding: 1.5em;
   background-color: #fff;
   border-radius: 0.5em;
+}
+
+.button-link { 
+  display: block;
+  padding: 0.5em;
+  color: #fff;
+  background-color: #0090c9;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.supporter-link { 
+  display: block;
+  color: #0072b0;
+  font-weight: bold;
+  text-decoration: none;
 }
