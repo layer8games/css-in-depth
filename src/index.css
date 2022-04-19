@@ -6,6 +6,11 @@
 */
 :root {
   font-size: calc(0.5em + 1vw);
+  box-sizing: border-box;
+}
+
+*, ::before, ::after{
+  box-sizing: inherit;
 }
 
 body {
