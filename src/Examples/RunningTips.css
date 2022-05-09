@@ -28,18 +28,23 @@ header {
 
 .media {
   float: left;
-  width: 50%;
+  margin: 0 1.5em 1.5em 0;
+  width: calc(50% - 1.5em);
   padding: 1.5em;
   background-color: #eee;
-  border-radius: 1.5em;
+  border-radius: 0.5em;
 }
 
-.mean:nth-child(odd) {
+.media:nth-child(odd) {
   clear: left;
 }
 
-.clearfix::after
-.clearfix::before {
+.clearfix::before
+.clearfix::after {
   display: block;
   content: " ";
+}
+
+.clearfix::after {
+  clear:both;
 }
