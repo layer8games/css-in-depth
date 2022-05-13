@@ -1,6 +1,6 @@
 import React from "react";
-import runner from "../assets/runner.png";
-import shoes from "../assets/shoes.png";
+import runner from "../../assets/runner.png";
+import shoes from "../../assets/shoes.png";
 import "./RunningTips.css";
 
 const RunningTips = () => {
@@ -36,7 +36,7 @@ const RunningTips = () => {
             <div className="media">
               <img className="media-image" src={shoes} alt="" />
               <div className="media-body">
-                <h4>Chang it up</h4>
+                <h4>Change it up</h4>
                 <p>
                   Don't run the same every time you hit the road. Vary your
                   pace, and vary the distance of your runs.

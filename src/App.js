@@ -1,7 +1,7 @@
 import React from "react";
-// import WombatCoffeeRoasters from "./Examples/WombatCoffeeRoasters";
-// import FranklinRunningClub from "./Examples/FranklinRunningClub";
-import RunningTips from "./Examples/RunningTips";
+// import WombatCoffeeRoasters from "./Examples/WombatCoffeeRoasters/WombatCoffeeRoasters";
+// import FranklinRunningClub from "./Examples/FranklinRunningClub/FranklinRunningClub";
+import RunningTips from "./Examples/RunningTips/RunningTips"
 
 function App() {
   return (
